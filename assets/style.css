@@ -21,7 +21,6 @@ header {
 }
 
 header h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   margin: 0;
   font-size: 28px;
@@ -32,5 +31,31 @@ header h1 {
 
 header a {
   text-decoration: none;
-  display: block;
+  color: white;
 }
+
+header h1 a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: skyblue;
+}
+
+header nav {
+  margin: 10px 0px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: monospace;
+}
+/* End of Header Styles*/
