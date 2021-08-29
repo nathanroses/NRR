@@ -5,12 +5,32 @@
 }
 
 :root {
-  --primary-color: ;
+  --primary-color: black;
+  --secondary-color: #4bb225;
+  --third-color: #1b9be4;
 }
 
 /*Styles Apply to The Header*/
 
 header {
-  background-color: black;
-  padding: 10px 40px;
+  background-color: var(--primary-color);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 28px;
+  color: whitesmoke;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  display: block;
 }
