@@ -18,6 +18,9 @@ section {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+}
 /*Styles Apply to The Header*/
 
 header {
@@ -123,13 +126,6 @@ article {
   width: 100%;
 }
 
-.brightness {
-  background-color: white;
-  display: inline-block;
-}
-.brightness img:hover {
-  opacity: 0.5;
-}
 /* Bio 3 Card Slide End */
 
 /* About Me Section */
@@ -190,13 +186,31 @@ article {
   flex: 1;
 }
 
-.projects img {
-  width: 25%;
+.project img {
+  width: 100%;
+  display: flex;
 }
 
-.projects h3 {
+.project-bio {
   text-decoration: none;
+  padding: 5px 5px;
+  text-align: center;
 }
+
+.project-name {
+  color: white;
+}
+
+img:brightness {
+  background-color: white;
+  display: inline-block;
+}
+.projects img:hover {
+  opacity: 20px;
+  transition: all 0.2s ease-in 0.3s;
+  transform: translateY(30px);
+}
+
 /*End My Current Projects*/
 
 /* Footer */
