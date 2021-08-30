@@ -158,6 +158,9 @@ article {
 }
 /* End of About Me*/
 
+/*My Current Projects*/
+
+/*End My Current Projects*/
 /* Footer */
 footer {
   text-align: center;
@@ -169,6 +172,10 @@ footer {
   padding: 10px 30px;
 }
 
+footer a {
+  text-decoration: none;
+  color: grey;
+}
 /* End of Footer*/
 
 /* MEDIA QUERY */
