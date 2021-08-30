@@ -101,6 +101,7 @@ article {
   background-color: black;
   color: white;
   flex: 1;
+  border-radius: 15px;
 }
 
 .fullstack-bio {
@@ -124,6 +125,7 @@ article {
 
 .fullstack img {
   width: 100%;
+  border-radius: 15px;
 }
 
 /* Bio 3 Card Slide End */
@@ -166,9 +168,9 @@ article {
 .my-current-projects {
   border-bottom: 6px solid;
   padding-bottom: 10px;
-  color: #1b9be4;
+  color: #1b9ae485;
   margin: 15px auto 25px auto;
-  border-radius: 5%;
+  border-radius: 7%;
 }
 
 .projects {
@@ -207,11 +209,13 @@ img:brightness {
   background-color: white;
   display: inline-block;
 }
+
 .projects img:hover {
   opacity: 20px;
   transition: all 0.2s ease-in 0.3s;
   transform: translateY(60px);
   filter: blur(5px);
+  filter: brightness(1.4);
 }
 
 /*End My Current Projects*/
@@ -233,7 +237,7 @@ footer a {
 }
 /* End of Footer*/
 
-/* MEDIA QUERY */
+/* MEDIA QUERY 980px */
 
 @media screen and (max-width: 980px) {
   header {
@@ -269,3 +273,4 @@ footer a {
     flex: 0 70%;
   }
 }
+/* End OF Media Queries */
