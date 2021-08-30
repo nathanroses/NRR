@@ -109,11 +109,14 @@ article {
   font-weight: lighter;
   font-size: 20px;
   margin-bottom: 15px;
+  text-align: center;
+  font-family: monospace;
 }
 
 .fullstack-bio h3 {
   font-size: 25px;
   font-family: monospace;
+  text-align: center;
 }
 
 .fullstack img {
