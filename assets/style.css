@@ -122,6 +122,14 @@ article {
 .fullstack img {
   width: 100%;
 }
+
+.brightness {
+  background-color: white;
+  display: inline-block;
+}
+.brightness img:hover {
+  opacity: 0.5;
+}
 /* Bio 3 Card Slide End */
 
 /* About Me Section */

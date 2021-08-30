@@ -1,0 +1,18 @@
+body {
+  background-image: url(./1tech.jpg);
+}
+
+.contact {
+  text-align: center;
+  border-radius: 30px;
+  width: 80%;
+  padding: 170px;
+  display: block;
+}
+
+.contact-us {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
