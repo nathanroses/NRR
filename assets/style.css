@@ -195,6 +195,8 @@ article {
   text-decoration: none;
   padding: 5px 5px;
   text-align: center;
+  font-size: 20px;
+  font-family: monospace;
 }
 
 .project-name {
