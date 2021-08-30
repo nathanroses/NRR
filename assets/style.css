@@ -14,6 +14,10 @@ section {
   --third-color: #1b9be4;
 }
 
+.flex-row {
+  display: flex;
+}
+
 /*Styles Apply to The Header*/
 
 header {
@@ -76,6 +80,11 @@ header nav ul li a:hover {
 /* End of Header Styles*/
 
 /* Bio 3 Card Slide */
+
+article {
+  display: block;
+}
+
 .fullstacks {
   width: 100%;
   margin: 0 auto;
@@ -105,6 +114,10 @@ header nav ul li a:hover {
 .fullstack-bio h3 {
   font-size: 25px;
   font-family: monospace;
+}
+
+.fullstack img {
+  width: 100%;
 }
 /* Bio 3 Card Slide End */
 
