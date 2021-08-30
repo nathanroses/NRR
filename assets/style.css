@@ -152,8 +152,9 @@ article {
   font-size: 19px;
   margin: 0 auto;
   padding: 20px;
-  width: 80%;
+  width: 92%;
   line-height: 1.3;
+  border-radius: 15px;
 }
 /* End of About Me*/
 
