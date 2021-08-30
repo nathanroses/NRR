@@ -95,8 +95,8 @@ article {
 
 .fullstack {
   margin: 20px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   flex: 1;
 }
 
