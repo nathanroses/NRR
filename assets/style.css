@@ -120,6 +120,16 @@ header nav ul li a:hover {
   width: 50%;
 }
 
+.primary-border {
+  border-color: black;
+}
+
+.secondary-border {
+  border-color: black;
+}
+
+/* End of About Me*/
+
 /* Footer */
 footer {
   text-align: center;
@@ -131,3 +141,23 @@ footer {
 }
 
 /* End of Footer*/
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
