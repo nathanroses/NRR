@@ -13,7 +13,9 @@
 /*Styles Apply to The Header*/
 
 header {
-  background-color: var(--primary-color);
+  background-image: url(./bgim.jpg);
+  background-size: cover;
+
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -37,7 +39,7 @@ header a {
 header h1 a {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: skyblue;
+  color: rgb(220, 239, 246);
   font-style: italic;
 }
 
