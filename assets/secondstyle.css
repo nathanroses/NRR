@@ -1,5 +1,5 @@
 body {
-  background-image: url(./1tech.jpg);
+  background-image: url(./421.jpg);
 }
 
 .contact {
@@ -14,11 +14,31 @@ body {
 }
 
 .contact-us {
-  background-color: white;
-  color: rgb(0, 0, 0);
+  background-image: url(./gg23.jpg);
+  background-position: center;
+  background-size: 600px;
   font-family: monospace;
   font-size: 25px;
   line-height: 10px;
   text-align: center;
   padding: 100px;
+  border-radius: 60px;
+}
+
+.contact-us h1 {
+  color: whitesmoke;
+}
+
+.contact-us h3 {
+  color: white;
+}
+
+.contact-us h4 {
+  color: rgb(0, 50, 70);
+}
+
+.contact-us:hover {
+  filter: opacity(10%);
+  transform: scale(1);
+  transition: all 0.5s ease-in 0.1s;
 }
