@@ -147,7 +147,7 @@ article {
   font-family: monospace;
   padding-bottom: 10px;
   text-align: center;
-  margin: 0 auto 0px auto;
+  margin: 0 auto 20px auto;
   width: 50%;
 }
 
@@ -222,12 +222,15 @@ img:brightness {
 
 .projects img:hover {
   opacity: 20px;
-  transition: all 0.2s ease-in 0.3s;
+  transition: all 0.3s ease-in 0.1s;
   transform: translateY(60px);
   filter: blur(5px);
   filter: brightness(1.4);
 }
 
+.project:hover {
+  background-color: white;
+}
 /*End My Current Projects*/
 
 /* Contact Button */
