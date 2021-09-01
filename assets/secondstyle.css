@@ -1,9 +1,19 @@
-body {
-  background-image: url(./421.jpg);
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding: 60px;
+}
+
+body,
+html {
+  height: 100%;
 }
 
 .contact {
   border-radius: 30px;
+  box-sizing: border-box;
   width: 60%;
   padding: 200px;
   display: block;
@@ -15,13 +25,14 @@ body {
 
 .contact-us {
   background-image: url(./gg23.jpg);
+  box-sizing: border-box;
   background-position: center;
   background-size: 600px;
   font-family: monospace;
   font-size: 25px;
-  line-height: 10px;
+  line-height: 15px;
   text-align: center;
-  padding: 100px;
+  padding: 150px;
   border-radius: 60px;
 }
 
@@ -34,11 +45,24 @@ body {
 }
 
 .contact-us h4 {
-  color: rgb(0, 50, 70);
+  color: rgba(0, 50, 70, 0.432);
 }
 
 .contact-us:hover {
   filter: opacity(10%);
   transform: scale(1);
   transition: all 0.5s ease-in 0.1s;
+}
+
+body {
+  background: url(../assets/421.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
