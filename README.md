@@ -9,7 +9,7 @@ This Website Will Host The Resume of Nathan Rose the Grand Rapids, Mi Native
 *HTML
 *CSS
 
-# Website
+## Website
 
 https://nathanroses.github.io/NRR/
 
