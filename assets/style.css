@@ -95,6 +95,7 @@ header h1 a {
 
 article {
   display: block;
+  flex-wrap: wrap;
 }
 
 .fullstacks {
@@ -111,6 +112,7 @@ article {
   color: white;
   flex: 1;
   border-radius: 15px;
+  flex-wrap: wrap;
 }
 
 .fullstack-bio {
@@ -135,6 +137,8 @@ article {
 .fullstack img {
   width: 100%;
   border-radius: 15px;
+  flex-wrap: wrap;
+  size: 100px 100px;
 }
 
 /* Bio 3 Card Slide End */
@@ -200,7 +204,10 @@ article {
 
 .project img {
   width: 100%;
-  display: flex;
+  flex-wrap: wrap;
+  display: flexbox;
+  size: 100px 100px;
+  display: inline;
 }
 
 .project-bio {
@@ -209,6 +216,8 @@ article {
   text-align: center;
   font-size: 20px;
   font-family: monospace;
+  flex-wrap: wrap;
+  display: block;
 }
 
 .project-name {
@@ -226,6 +235,7 @@ img:brightness {
   transform: translateY(60px);
   filter: blur(5px);
   filter: brightness(1.4);
+  flex-wrap: wrap;
 }
 
 .project:hover {
@@ -285,8 +295,62 @@ footer a {
     width: 100%;
   }
 
+  .projects {
+    width: 50%;
+    height: 50%;
+    size: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    display: inline;
+  }
+
   header nav ul li a {
     font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+
+  .fullstack {
+    flex: 0 70%;
+    flex-wrap: wrap;
+  }
+}
+/* MEDIA QUERY 560px */
+
+@media screen and (max-width: 560px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .projects {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    display: inline;
   }
 
   footer h2,
