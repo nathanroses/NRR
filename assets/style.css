@@ -326,9 +326,9 @@ footer a {
 
 @media screen and (max-width: 560px) {
   header {
-    padding-bottom: 0;
     justify-content: center;
     position: relative;
+    justify-content: space-between;
   }
 
   header h1 {
@@ -339,14 +339,65 @@ footer a {
   header nav ul {
     margin-top: 20px;
     width: 100%;
+    flex-wrap: wrap;
   }
 
   header nav ul li a {
     font-size: 20px;
+    justify-content: space-between;
   }
 
   .projects {
     width: 50%;
+    height: 50%;
+    display: inline-block;
+    flex-wrap: wrap;
+    display: inline;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+  }
+
+  .section-title {
+    width: 80%;
+  }
+
+  .fullstack {
+    flex: 0 70%;
+  }
+}
+
+/* MEDIA QUERY 320px */
+
+@media screen and (max-width: 320px) {
+  header {
+    padding-bottom: 0;
+    justify-content: space-around;
+    position: relative;
+    display: inline;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  header nav ul li a {
+    font-size: 10px;
+    justify-content: space-between;
+  }
+
+  .projects {
+    width: 80%;
     height: 50%;
     display: inline-block;
     flex-wrap: wrap;
