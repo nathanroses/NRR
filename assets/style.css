@@ -394,6 +394,7 @@ footer a {
   header nav ul li a {
     font-size: 10px;
     justify-content: space-between;
+    text-align: center;
   }
 
   .projects {
