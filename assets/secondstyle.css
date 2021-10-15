@@ -1,68 +1,69 @@
-* {
-  box-sizing: border-box;
-}
-
-section {
-  padding: 60px;
-}
-
-body,
-html {
-  height: 100%;
-}
-
-.contact {
-  border-radius: 30px;
-  box-sizing: border-box;
-  width: 60%;
-  padding: 200px;
-  display: block;
-  margin: 0 auto 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.contact-us {
-  background-image: url(./gg23.jpg);
-  box-sizing: border-box;
-  background-position: center;
-  background-size: 600px;
-  font-family: monospace;
-  font-size: 25px;
-  line-height: 15px;
+#filter-column {
   text-align: center;
-  padding: 150px;
-  border-radius: 60px;
+  margin: 20px 20px 20px 50px;
+  padding: 20px 0 0 0;
+  height: 785px;
+  border: 2px solid var(--secondary-color);
 }
 
-.contact-us h1 {
-  color: whitesmoke;
+#filter-column {
+  text-decoration: underline;
 }
 
-.contact-us h3 {
-  color: white;
+#results-column {
+  text-align: center;
+  margin: 20px 10px 20px 35px;
+  padding: 20px 0 0 0;
+  height: fit-content;
+  border: 2px solid var(--secondary-color);
 }
 
-.contact-us h4 {
-  color: rgba(0, 50, 70, 0.432);
+#results-column {
+  text-decoration: underline;
 }
 
-.contact-us:hover {
-  filter: opacity(10%);
-  transform: scale(1);
-  transition: all 0.5s ease-in 0.1s;
+#results {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+h3 {
+  padding: 20px;
 }
 
-body {
-  background: url(../assets/421.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.secondary-content {
+  text-align: center;
+  font-family: monospace;
+  font-style: oblique;
+  background-color: rgba(214, 214, 214, 0.089);
+  border-radius: 5px;
+}
+
+.colorscheme {
+  background-color: rgba(243, 219, 219, 0.1);
+}
+
+.page-title {
+  font-family: monospace;
+  padding: 25px;
+  margin: 10px;
+}
+
+.termsuno {
+  text-align: center;
+  padding: 5px;
+  color: rgb(248, 149, 149);
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: justify;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(180, 179, 179, 0.1);
+}
+
+.fix {
+  background-color: white;
 }
